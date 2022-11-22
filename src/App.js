@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import NavbarComp from "./components/NavbarComp";
+import HeroComp from "./components/HeroComp";
+import GalleryComp from "./components/GalleryComp";
+import PromoComp from "./components/PromoComp";
+import PointComp from "./components/PointComp";
+import TutorComp from "./components/TutorComp";
+import TestiComp from "./components/TestiComp";
+import ArtikelComp from "./components/ArtikelComp";
+import FaqComp from "./components/FaqComp";
+import FooterComp from "./components/FooterComp";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavbarComp />
+      <HeroComp />
+      {/* Content */}
+      <GalleryComp />
+      {/* <PromoComp /> */}
+      {/* <PointComp /> */}
+      {/* <TutorComp /> */}
+      {/* <TestiComp /> */}
+      {/* <ArtikelComp /> */}
+      {/* <FaqComp /> */}
+      {/* Content */}
+      {/* <FooterComp /> */}
     </div>
   );
 }
