@@ -16,7 +16,7 @@ function App() {
       <NavbarComp />
       <HeroComp />
       {/* Content */}
-      <GalleryComp />
+      {/* <GalleryComp /> */}
       {/* <PromoComp /> */}
       {/* <PointComp /> */}
       {/* <TutorComp /> */}
